@@ -27,3 +27,9 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
+.td1 {
+    background-color: gray;
+}
+.td2 {
+    background-color: blue;
+}
