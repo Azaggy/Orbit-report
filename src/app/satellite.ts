@@ -6,7 +6,7 @@ export class Satellite {
     operational: boolean;
     orbitType: string;
     launchDate: string;
-    colorChange: boolean = false;
+    colorChange: boolean = true;
     constructor(name: string, type: string, launchDate: string, orbitType: string, operational: boolean) {
         this.name = name;
         this.type = type;
@@ -24,8 +24,3 @@ export class Satellite {
     //     }
     // }
 }
-// name: string;
-// orbitType: string;
-// type: string;
-// operational: boolean;
-// launchDate: string;
