@@ -1,3 +1,4 @@
+import { NumberFormatStyle } from '@angular/common';
 import { truncate } from 'fs';
 
 export class Satellite {
@@ -13,6 +14,13 @@ export class Satellite {
         this.launchDate = launchDate;
         this.orbitType = orbitType;
         this.operational = operational;
+    }
+
+    shouldShowWarning(): boolean {
+        if (this.type.toLowerCase() == "space debris") {
+            return true;
+        }
+        return false;
     }
     // shouldShowWarning() {
     //     colorChange = false;
