@@ -1,5 +1,5 @@
-import { NumberFormatStyle } from '@angular/common';
-import { truncate } from 'fs';
+// import { NumberFormatStyle } from '@angular/common';
+// import { truncate } from 'fs';
 
 export class Satellite {
     name: string;
